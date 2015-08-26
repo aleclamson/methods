@@ -49,12 +49,13 @@ module Methods
 
 	def diff21(n)
 		if n <= 21
-		(21-n).abs
-	else
-		2*(21 - n ).abs
+			(21-n).abs
+		else
+			2*(21 - n ).abs
+		end
 	end
 
-
-		
+	def parrot_trouble?(hour)
+		hour < 7 || hour >= 18
 	end
 end

@@ -46,4 +46,10 @@ class MethodsTest < MiniTest::Test
     assert_equal 44, @m.diff21(43)
   end
 
+  def test_parrot_trouble
+    assert_equal true, @m.parrot_trouble?(6)
+    assert_equal true, @m.parrot_trouble(22)
+    assert_equal false, @m.parrot_trouble(7)
+    assert_equal false, @m.parrot_trouble(12)
+  end
 end
