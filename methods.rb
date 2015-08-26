@@ -46,4 +46,15 @@ module Methods
 			a+b
 		end
 	end
+
+	def diff21(n)
+		if n <= 21
+		(21-n).abs
+	else
+		2*(21 - n ).abs
+	end
+
+
+		
+	end
 end
