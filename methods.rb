@@ -2,7 +2,7 @@ module Methods
 	
 	
 	# sleep_in?
-	#
+	# 
 	# Students sleep in if it is not a weekday or we're on vacation. 
 	#
 	# ==== Attributes 
@@ -39,6 +39,11 @@ module Methods
 	# * a - an integer
 	# * b - an integer
 	#
-	# TODO - write sum_double
-
+	def sum_double(a, b)
+		if a == b
+			(a + b)*2
+		else
+			a+b
+		end
+	end
 end
